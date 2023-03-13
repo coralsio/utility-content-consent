@@ -15,18 +15,5 @@ class UtilityContentConsentSettingsDatabaseSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('settings')->insert([
-            [
-                'code' => 'utility_days_of_the_week',
-                'type' => 'SELECT',
-                'label' => 'Days of the week',
-                'value' => '{"Mon":"Mon","Tue":"Tue","Wed":"Wed","Thu":"Thu","Fri":"Fri","Sat":"Sat","Sun":"Sun"}',
-                'editable' => 1,
-                'hidden' => 0,
-                'category' => 'Utilities',
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-            ],
-        ]);
     }
 }

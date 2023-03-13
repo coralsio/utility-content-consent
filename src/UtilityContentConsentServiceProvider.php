@@ -10,7 +10,7 @@ use Corals\Settings\Facades\Modules;
 use Corals\User\Communication\Facades\CoralsNotification;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Foundation\AliasLoader;
-use Corals\Modules\Utility\ContentConsentHttp\Middleware\ContentConsent\ContentConsentMiddleware;
+use Corals\Modules\Utility\ContentConsent\Http\Middleware\ContentConsentMiddleware;
 use Corals\Modules\Utility\ContentConsent\Providers\UtilityObserverServiceProvider;
 use Corals\Settings\Facades\Settings;
 
@@ -46,6 +46,8 @@ class UtilityContentConsentServiceProvider extends BasePackageServiceProvider
             $loader = AliasLoader::getInstance();
             $loader->alias('UtilityContentConsent', UtilityContentConsent::class);
         });
+        $this->app['router']->pushMiddlewareToGroup('web', ContentConsentMiddleware::class);
+
     }
 
     public function registerModulesPackages()
