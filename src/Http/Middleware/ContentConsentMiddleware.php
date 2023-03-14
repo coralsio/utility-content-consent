@@ -1,6 +1,6 @@
 <?php
 
-namespace Corals\Modules\Utility\ContentConsent\Http\Middleware;
+namespace Corals\Utility\ContentConsent\Http\Middleware;
 
 use Closure;
 use Corals\Settings\Facades\Settings;

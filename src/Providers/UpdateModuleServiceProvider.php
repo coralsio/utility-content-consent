@@ -1,6 +1,6 @@
 <?php
 
-namespace Corals\Modules\Utility\ContentConsent\Providers;
+namespace Corals\Utility\ContentConsent\Providers;
 
 use Corals\Foundation\Providers\BaseUpdateModuleServiceProvider;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Corals\Modules\Utility\ContentConsent\Providers;
+namespace Corals\Utility\ContentConsent\Providers;
 
 use Corals\Foundation\Providers\BaseInstallModuleServiceProvider;
-use Corals\Modules\Utility\ContentConsent\database\seeds\UtilityContentConsentDatabaseSeeder;
+use Corals\Utility\ContentConsent\database\seeds\UtilityContentConsentDatabaseSeeder;
 
 class InstallModuleServiceProvider extends BaseInstallModuleServiceProvider
 {

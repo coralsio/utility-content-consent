@@ -1,6 +1,6 @@
 <?php
 
-namespace Corals\Modules\Utility\ContentConsent\Http\Controllers;
+namespace Corals\Utility\ContentConsent\Http\Controllers;
 
 use Corals\Foundation\Http\Controllers\BaseController;
 use Corals\Settings\Facades\Settings;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Corals\Modules\Utility\ContentConsent\Classes;
+namespace Corals\Utility\ContentConsent\Classes;
 
 class UtilityContentConsent
 {

@@ -1,17 +1,17 @@
 <?php
 
-namespace Corals\Modules\Utility\ContentConsent;
+namespace Corals\Utility\ContentConsent;
 
 use Corals\Foundation\Providers\BasePackageServiceProvider;
-use Corals\Modules\Utility\ContentConsent\Classes\UtilityContentConsent;
-use Corals\Modules\Utility\ContentConsent\Providers\UtilityAuthServiceProvider;
-use Corals\Modules\Utility\ContentConsent\Providers\UtilityRouteServiceProvider;
+use Corals\Utility\ContentConsent\Classes\UtilityContentConsent;
+use Corals\Utility\ContentConsent\Providers\UtilityAuthServiceProvider;
+use Corals\Utility\ContentConsent\Providers\UtilityRouteServiceProvider;
 use Corals\Settings\Facades\Modules;
 use Corals\User\Communication\Facades\CoralsNotification;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Foundation\AliasLoader;
-use Corals\Modules\Utility\ContentConsent\Http\Middleware\ContentConsentMiddleware;
-use Corals\Modules\Utility\ContentConsent\Providers\UtilityObserverServiceProvider;
+use Corals\Utility\ContentConsent\Http\Middleware\ContentConsentMiddleware;
+use Corals\Utility\ContentConsent\Providers\UtilityObserverServiceProvider;
 use Corals\Settings\Facades\Settings;
 
 

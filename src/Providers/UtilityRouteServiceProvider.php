@@ -1,6 +1,6 @@
 <?php
 
-namespace Corals\Modules\Utility\ContentConsent\Providers;
+namespace Corals\Utility\ContentConsent\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -14,7 +14,7 @@ class UtilityRouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'Corals\Modules\Utility\ContentConsent\Http\Controllers';
+    protected $namespace = 'Corals\Utility\ContentConsent\Http\Controllers';
 
     /**
      * Define your route model bindings, pattern filters, etc.

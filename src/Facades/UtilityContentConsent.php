@@ -1,6 +1,6 @@
 <?php
 
-namespace Corals\Modules\Utility\ContentConsent\Facades;
+namespace Corals\Utility\ContentConsent\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -11,6 +11,6 @@ class UtilityContentConsent extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return \Corals\Modules\Utility\ContentConsent\Classes\UtilityContentConsent::class;
+        return \Corals\Utility\ContentConsent\Classes\UtilityContentConsent::class;
     }
 }

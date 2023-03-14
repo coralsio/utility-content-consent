@@ -1,6 +1,6 @@
 <?php
 
-namespace Corals\Modules\Utility\ContentConsent\database\seeds;
+namespace Corals\Utility\ContentConsent\database\seeds;
 
 use Carbon\Carbon;
 use Illuminate\Database\Seeder;
